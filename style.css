@@ -1,0 +1,90 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'fonteespecial';
+    src: url(fontes/buycat/Buycat.otf) format('opentype');
+    font-weight: normal;
+}
+body{
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('midia/pexels-ashan-2085998.jpg'); /* Substitua 'caminho/para/sua/imagem.jpg' pelo caminho da sua imagem */
+    background-size: cover; /* Redimensiona a imagem para cobrir todo o elemento */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
+
+}
+.github-icon {
+    color: #000; /* Cor do ícone (preto) */
+    font-size: 28px; /* Tamanho do ícone */
+    /* Outros estilos, se necessário */
+}
+.instagram-icon {
+    color: rgb(245, 11, 50); /* Cor azul do Instagram */
+    font-size: 24px; /* Tamanho do ícone */
+}
+
+
+h2{
+    text-align: center;
+    font-family: 'fonteespecial' ;
+    color: rgb(23, 3, 43);
+}
+p{
+    margin: 30px;
+    text-align: justify;
+    
+}
+a{
+    display: block; /* Transforma o link em um bloco */
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(23, 3, 43);
+    text-decoration: none;
+    padding: 10px;
+    
+
+}
+
+
+
+.card {
+    width: 500px; /* Largura do cartão */
+    height: 600px;
+    border: 3px solid rgb(60, 4, 163); /* Borda do cartão */
+    border-radius: 20px; /* Arredondamento dos cantos */
+    overflow: hidden; /* Garante que a imagem não ultrapasse os limites do cartão */
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(23, 3, 43);
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    background-color: rgba(255, 255, 255, 0.233);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card img {
+    width: 200px; 
+    height: 200px; /* Altura automática, preservando a proporção */ 
+    border-radius: 100%;
+    text-align: center;
+    border: 2px solid rgb(60, 4, 163);
+
+}
+
+.container {
+    text-align: center; /* Centraliza horizontalmente o conteúdo */
+}
+
+.container img {
+    display: block; /* Garante que a imagem seja tratada como um bloco */
+    margin: 0 auto; /* Define margens automáticas para centralizar a imagem */
+    margin-top: 50px;
+}
+
+.card-content {
+    padding: 20px; /* Espaçamento interno */
+}
